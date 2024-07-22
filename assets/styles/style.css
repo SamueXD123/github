@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    height: 500;
+}
