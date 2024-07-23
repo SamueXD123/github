@@ -5,7 +5,27 @@
 }
 
 .hero {
+    height: 620px;
     display: flex;
+    /* EJE X */
     justify-content: center;
-    height: 500;
+
+    /* EJE Y */
+    align-items: flex-end;
+    /* margin: 200px; */
+
+    background-image: url("../imagenes/image.png");
+    background-size: cover;
+}
+
+.content {
+    color: white;
+    font-size: 1.4rem;
+    font-stretch: expanded;
+    height: 8em;
+    width: 100%;
+    padding: 1em 8em;
+    background-color: rgb(15, 15, 15, 0.6);
+    text-align: center;
+    text-shadow: 1px 1px #000;
 }
