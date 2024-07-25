@@ -18,6 +18,34 @@
     background-size: cover;
 }
 
+nav {
+    background-color: black;
+    height: 100%;
+    width: 11%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+                
+}
+
+nav li {
+    padding: 1em;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    color: rgba(255 ,255, 255, 0.6);
+}
+
+nav a:hover {
+    color: white;
+}
+
+
 .content {
     color: white;
     font-size: 1.4rem;
